@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Mission Umimpossible.exe" version="1.0.0.1" publicKeyToken="9e4174c3a69282ba" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Mission Umimpossible" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Mission Umimpossible.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Add Programme To Startup.dll" size="4608">
+      <assemblyIdentity name="Add Programme To Startup" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vqCVG3+ngaqqK9KQEG5UaHObm3rTQdNFtLNIvlOlNBU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AddProgrammeToStartup.dll" size="4608">
+      <assemblyIdentity name="ClassLibrary1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7VQAGK/gT5BdItVpEIAXoAhOrfwVcP7nNA423Sm4j7I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mission Umimpossible.exe" size="10752">
+      <assemblyIdentity name="Mission Umimpossible" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+eWf13sctTnL9lU6pdEuNiQDPqinP91O/O1unAynJWU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Mission Umimpossible.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Shoukhin\Tanvir" issuerKeyHash="65292e50cac53c9a5d05520acc3bc4079e25f136" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GurQ47pa8cPCaj5HMugrNBdZWC5bw5StkL/Jmdpij8U=</DigestValue></Reference></SignedInfo><SignatureValue>MjpQhaSQ1dyuydOGmaBjUbAy6QWdKkmRSFgk8FPaQsXBhLfNtaIVAjTBFggOvHzIegL32HqWHJm0zGmVNYtIsDQOGGauJo/Hn8He3CT7tUL5CJC7hlXF3ZuzQb/q+7Cgv2rps22zT+xSNqE/W+/qQREG9JPL9FXRzd6o+FSW3yo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ykdzTVBHxfcsYYAPjVbfSYX8yVAJDWQQBOe8b1yV66AZxTA0kLoV088JuLt4M8iSbDEQI2awmb6pMApoVCpD6T5mAxOUwXLZOq1uN9xehomB87aVrtCRnEeiTWQyrcP5tvlJrvVpFxf3p0CEDw4Kp8kYfJ74yzAzlzgX+oXX2Ms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c58f62da99c9bf90ad94c35b2e585917342be832473e6ac2c3f15abae3d0ea1a" Description="" Url=""><as:assemblyIdentity name="Mission Umimpossible.exe" version="1.0.0.1" publicKeyToken="9e4174c3a69282ba" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Shoukhin\Tanvir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EVua37dClVFCah0CBBH45WWcTcximUyS0Az33NetHIk=</DigestValue></Reference></SignedInfo><SignatureValue>r1EdSWsSbhses0KaXH8AJ6QB1FoheesHBTWaPFEt+Rf1dTSeOqyz4r/JxBRry0kpetAJJCF5VNtGO7EnjSaBh5HyJdYWxJroO1uR6O21CjGxddFzpf0n3FFh1tV8yGcS3W+L7pecSqJfL62Vu5PSDv6+RfJu9qXbog6C6Qmdhsc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ykdzTVBHxfcsYYAPjVbfSYX8yVAJDWQQBOe8b1yV66AZxTA0kLoV088JuLt4M8iSbDEQI2awmb6pMApoVCpD6T5mAxOUwXLZOq1uN9xehomB87aVrtCRnEeiTWQyrcP5tvlJrvVpFxf3p0CEDw4Kp8kYfJ74yzAzlzgX+oXX2Ms=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQcLFqZl1Hc7ZJM/G7tnFf4TANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUwBoAG8AdQBrAGgAaQBuAFwAVABhAG4AdgBpAHIwHhcNMTUxMjE3MDY0MDUwWhcNMTYxMjE2MTI0MDUwWjApMScwJQYDVQQDHh4AUwBoAG8AdQBrAGgAaQBuAFwAVABhAG4AdgBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMpHc01QR8X3LGGAD41W30mF/MlQCQ1kEATnvG9cleugGcUwNJC6FdPPCbi7eDPIkmwxECNmsJm+qTAKaFQqQ+k+ZgMTlMFy2TqtbjfcXoaJgfO2la7QkZxHok1kMq3D+bb5Sa71aRcX96dAhA8OCqfJGHye+MswM5c4F/qF19jLAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAm2qpWDUvgk7+n4L5us7V9WTjL5JofaAoVkxihRyMhBZZWsZ1rObWjg2znC/7s+qvxveHr4Zg7fw/Iph1vBPHqRAVYxPkGESsb5oGMZpeOBz/GlIKWbFE2s5iv75hfOot5Q5QkUaIaopjbV4sdtxoJf1/1qNSuQ+eYOkH6DgZf1E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
